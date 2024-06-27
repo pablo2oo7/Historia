@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
+:root{
+   --cor-fundo: #2e5509 ;
+   --cor-principal: #4e2503 ;
+   --cor-secundaria: #212333;
+   --cor-destaque: #07f139;
+   --cor-texto: #D7F9FF;
+   --fonte:"Gwendolyn", cursive;
+
+
+}
+
+
+body {
+   background-color: var(--cor-fundo);
+   color: var(--cor-texto);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   font-family: var(--fonte);
+}
+
+
+.caixa-principal{
+   background-color: var(--cor-principal);
+   width: 90%;
+   max-width: 600px;
+   text-align: center;
+   padding: 20px;
+}
